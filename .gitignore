@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+__pycache__/
+
+# Environment files
+.env
+.env.local
+
+# Build output
+dist/
+build/
+
+# Scratch/temp
+scratch/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

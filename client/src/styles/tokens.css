@@ -1,0 +1,76 @@
+/* =========================================================
+   KAUSHALMETRIC TRACKER DESIGN TOKENS
+   Standardized color system, typography scale, shadows & radii
+========================================================= */
+
+:root {
+  /* Brand Palettes */
+  --km-navy-deep: #052449;
+  --km-navy: #07366d;
+  --km-navy-light: #0c4a8e;
+
+  --km-blue: #1266c4;
+  --km-blue-hover: #0d54a5;
+  --km-blue-soft: #eaf4ff;
+  --km-blue-border: #c8e0f8;
+
+  --km-saffron: #f36b21;
+  --km-saffron-hover: #dc560f;
+  --km-saffron-soft: #fff3ec;
+  --km-saffron-border: #fddfce;
+
+  --km-green: #159957;
+  --km-green-dark: #0f7843;
+  --km-green-soft: #ebfaf1;
+  --km-green-border: #c8efd8;
+
+  --km-purple: #7c3aed;
+  --km-purple-soft: #f5f3ff;
+  --km-purple-border: #ddd6fe;
+
+  --km-cyan: #0284c7;
+  --km-cyan-soft: #f0f9ff;
+  --km-cyan-border: #bae6fd;
+
+  --km-red: #dc2626;
+  --km-red-soft: #fef2f2;
+  --km-red-border: #fecaca;
+
+  /* Neutrals & Surfaces */
+  --km-white: #ffffff;
+  --km-bg-main: #f8fafc;
+  --km-bg-subtle: #f1f5f9;
+  --km-bg-card: #ffffff;
+
+  --km-text-main: #172033;
+  --km-text-secondary: #64748b;
+  --km-text-muted: #94a3b8;
+  --km-text-light: #94a3b8;
+
+  --km-border-light: #e2ecf5;
+  --km-border-card: #d8e5f1;
+  --km-border-hover: #bad3e8;
+
+  /* Shadows */
+  --km-shadow-xs: 0 1px 2px rgba(7, 54, 109, 0.04);
+  --km-shadow-sm: 0 2px 8px rgba(7, 54, 109, 0.05);
+  --km-shadow-md: 0 6px 20px rgba(7, 54, 109, 0.07), 0 1px 4px rgba(7, 54, 109, 0.03);
+  --km-shadow-lg: 0 16px 36px rgba(7, 54, 109, 0.12), 0 3px 8px rgba(7, 54, 109, 0.04);
+  --km-shadow-xl: 0 24px 60px -10px rgba(5, 36, 73, 0.3);
+
+  /* Border Radii */
+  --km-radius-sm: 6px;
+  --km-radius-md: 10px;
+  --km-radius-lg: 16px;
+  --km-radius-xl: 22px;
+  --km-radius-full: 9999px;
+
+  /* Typography */
+  --km-font-sans: "Plus Jakarta Sans", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --km-font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  /* Transitions */
+  --km-transition-fast: 0.15s ease;
+  --km-transition-normal: 0.22s cubic-bezier(0.4, 0, 0.2, 1);
+  --km-transition-slow: 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
